@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Joana Geffroy</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<button class="hamburger" onclick="toggleMenu()">
+			<div class="hamburger-line line1"></div>
+			<div class="hamburger-line line2"></div>
+			<div class="hamburger-line line3"></div>
+		</button>
+	</div>
+	
+	<div class="container">
+	
+		<div class="menu-lateral">
+			<nav class="nav-lateral">
+				<p>joana geffroy</p>
+				<a href="./index.html">about</a><br>
+				<a href="./projects_mesmo_mundo.html">projects</a><br>
+				<a href="./portefolio.html">portfolio</a><br>
+				<a href="./contacts.html" class="active">contacts</a>
+			</nav>
+		</div>
+		
+		<div class="page-normal" style="display:block!important">
+			
+			<div class="main-paragraphs full-mobile" style="text-align: center!important; justify-content: center!important; margin: auto!important; margin-bottom: 4%!important; margin-top:15%!important; position: relative;">
+				<p>contacts</p>
+				
+				<p>joanadpgeffroy@gmail.com</p>
+				
+				<p>projetdumonde@gmail.com</p>
+				
+				<p>@__jo__j_o</p>
+				
+				<p>@projetdumonde</p>
+			</div>
+			
+			<div class="full-mobile" style="display:flex; margin-right: 15%;">
+				<img src="./img/joana.jpg" class="img-main-page full-mobile" style="margin-right:0!important; width:66%"/>
+			</div>
+			
+			<div class="main-paragraphs full-mobile">
+				<p style="font-size:9pt">I would love to paint more little houses, hope you felt good here :)</p>
+			</div>
+
+		</div>
+	</div>
+	
+	
+	<script>
+		function toggleMenu() {
+			const menu = document.querySelector('.menu-lateral');
+			menu.style.display = (menu.style.display === 'block' || menu.style.display === '') ? 'none' : 'block';
+		}
+	</script>
+</body>
+</html>
