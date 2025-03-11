@@ -24,10 +24,10 @@
         <div class="menu-lateral">
             <nav class="nav-lateral">
                 <p>do mesmo mundo</p>
-                <a href="./index.html">about</a><br>
+                <!-- <a href="./index.html">about</a><br>
                 <a href="./projects_mesmo_mundo.html">projects</a><br>
                 <a href="./portefolio.html">portfolio</a><br>
-                <a href="./contacts.html" class="active">contacts</a>
+                <a href="./contacts.html" class="active">contacts</a> -->
             </nav>
         </div>
 
@@ -159,9 +159,29 @@
                     <p class="full-mobile" style="font-family: 'Futura std', sans-serif;width: 85%; max-width: 500px;text-align: left">Modom</p>
                 </div>
             </div>
+
+            <div class="full-mobile" style="margin-top:10%; width: 100%; text-align: left;">
+                <div style="display: inline-block">
+                    <img class="full-mobile" src="./img/footer/footer.png" style="width: 80%; max-width: 800px;" />
+                </div>
+            </div>
+
+            <div class="footer" style="margin-top:5%; margin-bottom:5%">
+                <!-- <div class="footer-text">
+                    <p>este projeto é apoiado por:</p>
+                </div>
+                <br>
+                <div class="footer-logos">
+                    <img src="img/footer/cpr.png" alt="CPR Logo">
+                    <img src="img/footer/cml.png" alt="Lisboa Logo">
+                    <img src="img/footer/escolas_alvalade.png" alt="Agrupamento de Escolas de Alvalade Logo">
+                    <img src="img/footer/teatro_bairro.png" alt="Um Teatro em Cada Bairro Logo">
+                </div> -->
+
+
+            </div>
         </div>
     </div>
-
     <script>
         function toggleMenu() {
             const menu = document.querySelector('.menu-lateral');
@@ -169,5 +189,55 @@
         }
     </script>
 </body>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: flex-end;
+        font-family: Arial, sans-serif;
+    }
+
+    .footer-img-div {
+        width: 100%;
+        background-color: red;
+    }
+
+    .footer-img {
+        width: 100%;
+    }
+
+    .footer {
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer img {
+        height: 60px;
+    }
+
+    .footer-text {
+        text-align: center;
+        color: gray;
+        font-size: 14px;
+    }
+
+    .footer-logos {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+</style>
 
 </html>
