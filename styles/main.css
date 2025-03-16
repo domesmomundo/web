@@ -30,6 +30,24 @@ body {
     padding: 10px;
 }
 
+.overlay-menu a {
+    text-decoration: none;
+}
+
+.overlay-menu a:hover {
+    color: rgb(64, 62, 62);
+}
+
+.overlay-menu a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.overlay-menu a:active {
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+}
+
 .overlay-menu p {
     margin: 0;
     padding: 0;
