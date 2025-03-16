@@ -22,7 +22,7 @@ body {
 
 .overlay-menu {
     position: absolute;
-    top: 50px;
+    top: 100px;
     left: 50px;
     color: black;
     text-align: left;
@@ -30,16 +30,10 @@ body {
     padding: 10px;
 }
 
-.overlay-menu h1 {
-    margin: 0;
-    margin-bottom: 30pt;
-    font-family: 'Inter', sans-serif;
-    font-size: 1.15em;
-}
-
 .overlay-menu p {
-    padding: 4%;
     margin: 0;
+    padding: 0;
+
     font-size: .95em;
     font-family: 'Inter', sans-serif;
 }
@@ -119,7 +113,7 @@ body {
     text-align: left;
     z-index: 1;
     padding: 5pt;
-    width: 35%;
+    width: 25%;
     font-family: 'Inter', sans-serif;
     font-weight: 100;
     font-size: .95em;
@@ -322,6 +316,11 @@ body {
 }
 
 .main-text p {
+    font-family: 'Futura std', sans-serif;
+    text-align: justify;
+}
+
+main-text p {
     font-family: 'Futura std', sans-serif;
     text-align: justify;
 }
