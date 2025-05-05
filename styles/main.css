@@ -14,7 +14,7 @@ body {
 }
 
 .background-image-home {
-    width: 100%;
+    width: 100vw;
     height: auto;
     object-fit: contain;
     display: block;
@@ -69,7 +69,7 @@ body {
 .overlay-home-text-p {
     font-family: 'Inter', sans-serif;
     font-weight: 100;
-    font-size: .95em;
+    font-size: .9em;
     color: rgba(102, 102, 102, 1);
 }
 
@@ -84,8 +84,8 @@ body {
 }
 
 .overlay-home-text-3 {
-    top: 100vh;
-    left: 25%;
+    top: 116vh;
+    left: 17%;
     position: absolute;
     text-align: left;
     z-index: 1;
