@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="https://domesmomundo.com/styles/main.css">
     <link rel="stylesheet" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        // Function to check if the screen size is that of a mobile device
+        function isMobileDevice() {
+            return window.innerWidth <= 800; // You can adjust the threshold as needed
+        }
+
+        // Function to handle redirection
+        function handleRedirection() {
+            if (isMobileDevice() && window.location.pathname !== '/index_mobile.html') {
+                window.location.href = "index_mobile.html";
+            }
+        }
+
+        // Initial check
+        handleRedirection();
+
+        // Add event listener for window resize
+        window.addEventListener('resize', handleRedirection);
+    </script>
+
 </head>
 
 <body style="margin:0; padding:0">
