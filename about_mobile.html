@@ -29,11 +29,71 @@
         window.addEventListener('resize', handleRedirection);
     </script>
 
+    <style>
+        /* Reset some default styles */
+        body, h1, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style the header */
+        header {
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        /* Style the title */
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        /* Style the navigation menu */
+        nav {
+            text-align: center;
+        }
+
+        /* Style the unordered list */
+        nav ul {
+            list-style-type: none;
+        }
+
+        /* Style the list items */
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        /* Style the links */
+        nav ul li a {
+            font-family: 'Futura std', sans-serif;
+            color: rgb(72, 86, 91);
+            font-weight: lighter;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        /* Change the color of the links on hover */
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body style="margin:0; padding:0">
    
-    <div style="margin-left:7.5%;margin-top:10%;width:35%">
+    <div>
+        <header>
+        <p class="text" style="margin-top:7%;"><b>do mesmo mundo</b></p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Project</a></li>
+            <li><a href="./about.html">contact me</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <div style="margin-left:7.5%;margin-top:14%;width:35%">
         <p class="text">
             I'm Joana Geffroy, a visual artist from Portugal.
         </p>
