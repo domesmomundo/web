@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Do mesmo mundo </title>
+    <link rel="stylesheet" href="https://domesmomundo.com/styles/main.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        // Function to check if the screen size is that of a mobile device
+        function isMobileDevice() {
+            return window.innerWidth <= 800; // You can adjust the threshold as needed
+        }
+
+        // Function to handle redirection
+        function handleRedirection() {
+            if (!isMobileDevice() && window.location.pathname !== '/about.html') {
+                window.location.href = "about.html";
+            }
+        }
+
+        // Initial check
+        handleRedirection();
+
+        // Add event listener for window resize
+        window.addEventListener('resize', handleRedirection);
+    </script>
+
+</head>
+
+<body style="margin:0; padding:0">
+   
+    <div style="margin-left:7.5%;margin-top:10%;width:35%">
+        <p class="text">
+            I'm Joana Geffroy, a visual artist from Portugal.
+        </p>
+        <img src="imgs/joana2.png" style="width: 100%">
+    </div>
+
+    <div style="margin:7.5%;margin-top:7.5%;">
+        
+        <br>
+        <p class="text">
+            I began my academic journey with a Law degree at the University of Coimbra, which I completed in 2019. During that time and afterward, I discovered painting as a space of freedom, and I'm still exploring who I am as a young artist. For the past two years, I've been studying Illustration at the École Supérieure des Arts et Industries Graphiques de Paris.
+        </p>
+        <p class="text">
+            Currently based in Lisbon, I'm in this moment teaching painting classes at Escola Secundária Padre António Vieira, working closely with social projects there.
+        </p>
+        <p class="text">
+            Through painting and collaborative projects, I aim to bring shared humanity to life.
+        </p>
+        <p class="text">
+            If you know a place where that can make sense or want to work together, feel free to talk to me.
+        </p>
+        <p class="text">
+            <a style="color:rgb(72, 86, 91);" href="mailto:joanadpgeffroy@gmail.com">joanadpgeffroy@gmail.com</a>
+        </p>
+    </div>
+
+    <div style="margin-left:17.5%;margin-top:0%;width:77%">
+        <img src="img/foyersorins/foyer2.jpg" style="width: 100%">
+        <div class="img-subtitle" style="text-align:left!important;white-space: nowrap;">
+            <p>pour l'exposition collective,<br>Foyer des Sorins</p>
+        </div>
+    </div>
+
+    <div style="margin-left:17.5%;margin-top:10%;width:77%">
+        <img src="img/foyersorins/foyer1.jpg" style="width: 100%">
+        <div class="img-subtitle" style="text-align:left!important;white-space: nowrap;">
+            <p>"Les Sorins", le foyer des sorins est<br>un foyer-refuge<br>à Montreuil.<br><br>Théatre de Montreuil, 2023 Paris.</p>
+        </div>
+    </div>
+
+    <div style="margin-left:17.5%;margin-top:10%;width:77%;margin-bottom:7.5%;">
+        <img src="imgs/rosa.png" style="width: 100%">
+        <div class="img-subtitle" style="text-align:left!important;white-space: nowrap;">
+            <p>rosa parks, pour les refuges<br>solidaires à Briançon.</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+<style>
+    .text {
+        font-family: 'Futura std', sans-serif;
+        color: rgb(72, 86, 91);
+        font-weight: lighter;
+    }
+
+  body, html {
+    overflow-x: hidden;
+  }
+</style>
+</html>
