@@ -93,6 +93,18 @@ body {
     padding: 5pt;
 }
 
+@media only screen and (max-width: 1200px) {
+.overlay-home-text-3 {
+    top: 85vh;
+    left: 17%;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+    background-color: rgba(230, 230, 230, 0);
+    padding: 5pt;
+}
+}
+
 .img-subtitle {
     text-align: right;
     margin-right: 2.5%;
